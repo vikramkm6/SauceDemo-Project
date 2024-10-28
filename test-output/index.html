@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\91807\eclipse-workspace\NewDemo\SauceDemo_ASSESSMENT1\src\test\resources\Runner\Execute.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 14 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkBackToHome(locked_out_user, secret_sauce)">checkBackToHome(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkBackToHome(problem_user, secret_sauce)">checkBackToHome(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkFieldInformation(locked_out_user, secret_sauce)">checkFieldInformation(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOrderCompletion(locked_out_user, secret_sauce)">checkOrderCompletion(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOrderCompletion(problem_user, secret_sauce)">checkOrderCompletion(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOut(locked_out_user, secret_sauce)">checkOut(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOut(problem_user, secret_sauce)">checkOut(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="checkOut_Products_Validation(problem_user, secret_sauce)">checkOut_Products_Validation(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkTotal_Prod_WithCartItems(problem_user, secret_sauce)">checkTotal_Prod_WithCartItems(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkTotal_Prod_WithCartItems(locked_out_user, secret_sauce)">checkTotal_Prod_WithCartItems(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="click_Highest_Product(problem_user, secret_sauce)">click_Highest_Product(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="click_Highest_Product(locked_out_user, secret_sauce)">click_Highest_Product(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="sortProducts(problem_user, secret_sauce)">sortProducts(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductDetails(locked_out_user, secret_sauce)">verifyProductDetails(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="addToCart(standard_user, secret_sauce)">addToCart(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkBackToHome(performance_glitch_user, secret_sauce)">checkBackToHome(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkBackToHome(standard_user, secret_sauce)">checkBackToHome(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkFieldInformation(problem_user, secret_sauce)">checkFieldInformation(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkFieldInformation(performance_glitch_user, secret_sauce)">checkFieldInformation(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkFieldInformation(standard_user, secret_sauce)">checkFieldInformation(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.HomeTest" class="method navigator-link" hash-for-method="checkLogOut(standard_user, secret_sauce)">checkLogOut(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="checkLogin(locked_out_user, secret_sauce)">checkLogin(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="checkLogin(problem_user, secret_sauce)">checkLogin(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="checkLogin(performance_glitch_user, secret_sauce)">checkLogin(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="checkLogin(standard_user, secret_sauce)">checkLogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOrderCompletion(standard_user, secret_sauce)">checkOrderCompletion(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOrderCompletion(performance_glitch_user, secret_sauce)">checkOrderCompletion(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOut(standard_user, secret_sauce)">checkOut(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkOut(performance_glitch_user, secret_sauce)">checkOut(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="checkOut_Products_Validation(standard_user, secret_sauce)">checkOut_Products_Validation(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="checkOut_Products_Validation(locked_out_user, secret_sauce)">checkOut_Products_Validation(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="checkOut_Products_Validation(performance_glitch_user, secret_sauce)">checkOut_Products_Validation(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkTotal_Prod_WithCartItems(performance_glitch_user, secret_sauce)">checkTotal_Prod_WithCartItems(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CheckOutTest" class="method navigator-link" hash-for-method="checkTotal_Prod_WithCartItems(standard_user, secret_sauce)">checkTotal_Prod_WithCartItems(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="click_Highest_Product(standard_user, secret_sauce)">click_Highest_Product(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="click_Highest_Product(performance_glitch_user, secret_sauce)">click_Highest_Product(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="sortProducts(performance_glitch_user, secret_sauce)">sortProducts(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="sortProducts(locked_out_user, secret_sauce)">sortProducts(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="sortProducts(standard_user, secret_sauce)">sortProducts(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductDetails(standard_user, secret_sauce)">verifyProductDetails(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductDetails(performance_glitch_user, secret_sauce)">verifyProductDetails(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductDetails(problem_user, secret_sauce)">verifyProductDetails(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CheckOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBackToHome(locked_out_user, secret_sauce)">
+                  </a> <!-- checkBackToHome(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkBackToHome</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError:  User handling the exception, couldnt reach the checkout page expected [true] but found [false]
+	at tests.CheckOutTest.checkBackToHome(CheckOutTest.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBackToHome(problem_user, secret_sauce)">
+                  </a> <!-- checkBackToHome(problem_user, secret_sauce) -->
+                  <span class="method-name">checkBackToHome</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError:  User handling the exception, couldnt reach the checkout page expected [true] but found [false]
+	at tests.CheckOutTest.checkBackToHome(CheckOutTest.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFieldInformation(locked_out_user, secret_sauce)">
+                  </a> <!-- checkFieldInformation(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkFieldInformation</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkFieldInformation(CheckOutTest.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderCompletion(locked_out_user, secret_sauce)">
+                  </a> <!-- checkOrderCompletion(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkOrderCompletion</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkOrderCompletion(CheckOutTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderCompletion(problem_user, secret_sauce)">
+                  </a> <!-- checkOrderCompletion(problem_user, secret_sauce) -->
+                  <span class="method-name">checkOrderCompletion</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkOrderCompletion(CheckOutTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut(locked_out_user, secret_sauce)">
+                  </a> <!-- checkOut(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkOut</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkOut(CheckOutTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut(problem_user, secret_sauce)">
+                  </a> <!-- checkOut(problem_user, secret_sauce) -->
+                  <span class="method-name">checkOut</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkOut(CheckOutTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTotal_Prod_WithCartItems(problem_user, secret_sauce)">
+                  </a> <!-- checkTotal_Prod_WithCartItems(problem_user, secret_sauce) -->
+                  <span class="method-name">checkTotal_Prod_WithCartItems</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkTotal_Prod_WithCartItems(CheckOutTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTotal_Prod_WithCartItems(locked_out_user, secret_sauce)">
+                  </a> <!-- checkTotal_Prod_WithCartItems(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkTotal_Prod_WithCartItems</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.CheckOutTest.checkTotal_Prod_WithCartItems(CheckOutTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut_Products_Validation(problem_user, secret_sauce)">
+                  </a> <!-- checkOut_Products_Validation(problem_user, secret_sauce) -->
+                  <span class="method-name">checkOut_Products_Validation</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddToCartTest.checkOut_Products_Validation(AddToCartTest.java:163)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Highest_Product(problem_user, secret_sauce)">
+                  </a> <!-- click_Highest_Product(problem_user, secret_sauce) -->
+                  <span class="method-name">click_Highest_Product</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddToCartTest.click_Highest_Product(AddToCartTest.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Highest_Product(locked_out_user, secret_sauce)">
+                  </a> <!-- click_Highest_Product(locked_out_user, secret_sauce) -->
+                  <span class="method-name">click_Highest_Product</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddToCartTest.click_Highest_Product(AddToCartTest.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProducts(problem_user, secret_sauce)">
+                  </a> <!-- sortProducts(problem_user, secret_sauce) -->
+                  <span class="method-name">sortProducts</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddToCartTest.sortProducts(AddToCartTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails(locked_out_user, secret_sauce)">
+                  </a> <!-- verifyProductDetails(locked_out_user, secret_sauce) -->
+                  <span class="method-name">verifyProductDetails</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddToCartTest.verifyProductDetails(AddToCartTest.java:133)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBackToHome(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkBackToHome(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkBackToHome</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBackToHome(standard_user, secret_sauce)">
+                  </a> <!-- checkBackToHome(standard_user, secret_sauce) -->
+                  <span class="method-name">checkBackToHome</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFieldInformation(problem_user, secret_sauce)">
+                  </a> <!-- checkFieldInformation(problem_user, secret_sauce) -->
+                  <span class="method-name">checkFieldInformation</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFieldInformation(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkFieldInformation(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkFieldInformation</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFieldInformation(standard_user, secret_sauce)">
+                  </a> <!-- checkFieldInformation(standard_user, secret_sauce) -->
+                  <span class="method-name">checkFieldInformation</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderCompletion(standard_user, secret_sauce)">
+                  </a> <!-- checkOrderCompletion(standard_user, secret_sauce) -->
+                  <span class="method-name">checkOrderCompletion</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderCompletion(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkOrderCompletion(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkOrderCompletion</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut(standard_user, secret_sauce)">
+                  </a> <!-- checkOut(standard_user, secret_sauce) -->
+                  <span class="method-name">checkOut</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkOut(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkOut</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTotal_Prod_WithCartItems(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkTotal_Prod_WithCartItems(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkTotal_Prod_WithCartItems</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTotal_Prod_WithCartItems(standard_user, secret_sauce)">
+                  </a> <!-- checkTotal_Prod_WithCartItems(standard_user, secret_sauce) -->
+                  <span class="method-name">checkTotal_Prod_WithCartItems</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart(standard_user, secret_sauce)">
+                  </a> <!-- addToCart(standard_user, secret_sauce) -->
+                  <span class="method-name">addToCart</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut_Products_Validation(standard_user, secret_sauce)">
+                  </a> <!-- checkOut_Products_Validation(standard_user, secret_sauce) -->
+                  <span class="method-name">checkOut_Products_Validation</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut_Products_Validation(locked_out_user, secret_sauce)">
+                  </a> <!-- checkOut_Products_Validation(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkOut_Products_Validation</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut_Products_Validation(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkOut_Products_Validation(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkOut_Products_Validation</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Highest_Product(standard_user, secret_sauce)">
+                  </a> <!-- click_Highest_Product(standard_user, secret_sauce) -->
+                  <span class="method-name">click_Highest_Product</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Highest_Product(performance_glitch_user, secret_sauce)">
+                  </a> <!-- click_Highest_Product(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">click_Highest_Product</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProducts(performance_glitch_user, secret_sauce)">
+                  </a> <!-- sortProducts(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">sortProducts</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProducts(locked_out_user, secret_sauce)">
+                  </a> <!-- sortProducts(locked_out_user, secret_sauce) -->
+                  <span class="method-name">sortProducts</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProducts(standard_user, secret_sauce)">
+                  </a> <!-- sortProducts(standard_user, secret_sauce) -->
+                  <span class="method-name">sortProducts</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails(standard_user, secret_sauce)">
+                  </a> <!-- verifyProductDetails(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyProductDetails</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails(performance_glitch_user, secret_sauce)">
+                  </a> <!-- verifyProductDetails(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">verifyProductDetails</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails(problem_user, secret_sauce)">
+                  </a> <!-- verifyProductDetails(problem_user, secret_sauce) -->
+                  <span class="method-name">verifyProductDetails</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin(locked_out_user, secret_sauce)">
+                  </a> <!-- checkLogin(locked_out_user, secret_sauce) -->
+                  <span class="method-name">checkLogin</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin(problem_user, secret_sauce)">
+                  </a> <!-- checkLogin(problem_user, secret_sauce) -->
+                  <span class="method-name">checkLogin</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin(performance_glitch_user, secret_sauce)">
+                  </a> <!-- checkLogin(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">checkLogin</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin(standard_user, secret_sauce)">
+                  </a> <!-- checkLogin(standard_user, secret_sauce) -->
+                  <span class="method-name">checkLogin</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogOut(standard_user, secret_sauce)">
+                  </a> <!-- checkLogOut(standard_user, secret_sauce) -->
+                  <span class="method-name">checkLogOut</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91807\eclipse-workspace\NewDemo\SauceDemo_ASSESSMENT1\src\test\resources\Runner\Execute.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.HomeTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkBackToHome')
+data.setCell(0, 2, 'tests.CheckOutTest')
+data.setCell(0, 3, 16480);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'click_Highest_Product')
+data.setCell(1, 2, 'tests.AddToCartTest')
+data.setCell(1, 3, 16085);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'click_Highest_Product')
+data.setCell(2, 2, 'tests.AddToCartTest')
+data.setCell(2, 3, 15816);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkOrderCompletion')
+data.setCell(3, 2, 'tests.CheckOutTest')
+data.setCell(3, 3, 13550);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addToCart')
+data.setCell(4, 2, 'tests.AddToCartTest')
+data.setCell(4, 3, 12983);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkOrderCompletion')
+data.setCell(5, 2, 'tests.CheckOutTest')
+data.setCell(5, 3, 12764);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTotal_Prod_WithCartItems')
+data.setCell(6, 2, 'tests.CheckOutTest')
+data.setCell(6, 3, 12745);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkTotal_Prod_WithCartItems')
+data.setCell(7, 2, 'tests.CheckOutTest')
+data.setCell(7, 3, 11410);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkOut_Products_Validation')
+data.setCell(8, 2, 'tests.AddToCartTest')
+data.setCell(8, 3, 10795);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkFieldInformation')
+data.setCell(9, 2, 'tests.CheckOutTest')
+data.setCell(9, 3, 10768);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkOut')
+data.setCell(10, 2, 'tests.CheckOutTest')
+data.setCell(10, 3, 10766);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkBackToHome')
+data.setCell(11, 2, 'tests.CheckOutTest')
+data.setCell(11, 3, 10702);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sortProducts')
+data.setCell(12, 2, 'tests.AddToCartTest')
+data.setCell(12, 3, 10650);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProductDetails')
+data.setCell(13, 2, 'tests.AddToCartTest')
+data.setCell(13, 3, 10435);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkOut')
+data.setCell(14, 2, 'tests.CheckOutTest')
+data.setCell(14, 3, 9260);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkOrderCompletion')
+data.setCell(15, 2, 'tests.CheckOutTest')
+data.setCell(15, 3, 8575);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkOrderCompletion')
+data.setCell(16, 2, 'tests.CheckOutTest')
+data.setCell(16, 3, 8365);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkFieldInformation')
+data.setCell(17, 2, 'tests.CheckOutTest')
+data.setCell(17, 3, 8135);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkBackToHome')
+data.setCell(18, 2, 'tests.CheckOutTest')
+data.setCell(18, 3, 6450);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkTotal_Prod_WithCartItems')
+data.setCell(19, 2, 'tests.CheckOutTest')
+data.setCell(19, 3, 6397);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkTotal_Prod_WithCartItems')
+data.setCell(20, 2, 'tests.CheckOutTest')
+data.setCell(20, 3, 6226);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkOut_Products_Validation')
+data.setCell(21, 2, 'tests.AddToCartTest')
+data.setCell(21, 3, 5853);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'click_Highest_Product')
+data.setCell(22, 2, 'tests.AddToCartTest')
+data.setCell(22, 3, 5760);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyProductDetails')
+data.setCell(23, 2, 'tests.AddToCartTest')
+data.setCell(23, 3, 5564);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkLogin')
+data.setCell(24, 2, 'tests.LoginTest')
+data.setCell(24, 3, 5486);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyProductDetails')
+data.setCell(25, 2, 'tests.AddToCartTest')
+data.setCell(25, 3, 5461);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'click_Highest_Product')
+data.setCell(26, 2, 'tests.AddToCartTest')
+data.setCell(26, 3, 5389);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyProductDetails')
+data.setCell(27, 2, 'tests.AddToCartTest')
+data.setCell(27, 3, 5378);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkOut')
+data.setCell(28, 2, 'tests.CheckOutTest')
+data.setCell(28, 3, 4312);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkOut')
+data.setCell(29, 2, 'tests.CheckOutTest')
+data.setCell(29, 3, 4287);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkBackToHome')
+data.setCell(30, 2, 'tests.CheckOutTest')
+data.setCell(30, 3, 4220);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkFieldInformation')
+data.setCell(31, 2, 'tests.CheckOutTest')
+data.setCell(31, 3, 3085);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkFieldInformation')
+data.setCell(32, 2, 'tests.CheckOutTest')
+data.setCell(32, 3, 2989);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkLogOut')
+data.setCell(33, 2, 'tests.HomeTest')
+data.setCell(33, 3, 1200);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkOut_Products_Validation')
+data.setCell(34, 2, 'tests.AddToCartTest')
+data.setCell(34, 3, 903);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'sortProducts')
+data.setCell(35, 2, 'tests.AddToCartTest')
+data.setCell(35, 3, 890);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkOut_Products_Validation')
+data.setCell(36, 2, 'tests.AddToCartTest')
+data.setCell(36, 3, 839);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'sortProducts')
+data.setCell(37, 2, 'tests.AddToCartTest')
+data.setCell(37, 3, 639);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkLogin')
+data.setCell(38, 2, 'tests.LoginTest')
+data.setCell(38, 3, 580);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'sortProducts')
+data.setCell(39, 2, 'tests.AddToCartTest')
+data.setCell(39, 3, 573);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkLogin')
+data.setCell(40, 2, 'tests.LoginTest')
+data.setCell(40, 3, 480);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'checkLogin')
+data.setCell(41, 2, 'tests.LoginTest')
+data.setCell(41, 3, 365);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CheckOutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.HomeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogin(standard_user, secret_sauce)</span>
+                <span class="method-start">5249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogin(problem_user, secret_sauce)</span>
+                <span class="method-start">8761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogin(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">11826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogin(locked_out_user, secret_sauce)</span>
+                <span class="method-start">20014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogOut(standard_user, secret_sauce)</span>
+                <span class="method-start">22914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24115 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCart(standard_user, secret_sauce)</span>
+                <span class="method-start">26710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProducts(standard_user, secret_sauce)</span>
+                <span class="method-start">42602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortProducts(problem_user, secret_sauce)</span>
+                <span class="method-start">45965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProducts(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">49799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProducts(locked_out_user, secret_sauce)</span>
+                <span class="method-start">63123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">click_Highest_Product(standard_user, secret_sauce)</span>
+                <span class="method-start">66299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_Highest_Product(problem_user, secret_sauce)</span>
+                <span class="method-start">74715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">click_Highest_Product(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">93914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">109982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_Highest_Product(locked_out_user, secret_sauce)</span>
+                <span class="method-start">112278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetails(standard_user, secret_sauce)</span>
+                <span class="method-start">120441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">126253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetails(problem_user, secret_sauce)</span>
+                <span class="method-start">128671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetails(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">136764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">147421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyProductDetails(locked_out_user, secret_sauce)</span>
+                <span class="method-start">149985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">155783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOut_Products_Validation(standard_user, secret_sauce)</span>
+                <span class="method-start">158223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">159258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut_Products_Validation(problem_user, secret_sauce)</span>
+                <span class="method-start">161708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">163046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOut_Products_Validation(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">165506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">171574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOut_Products_Validation(locked_out_user, secret_sauce)</span>
+                <span class="method-start">174209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">185252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOut(standard_user, secret_sauce)</span>
+                <span class="method-start">187751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">192324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut(problem_user, secret_sauce)</span>
+                <span class="method-start">194830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOut(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">201811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">211254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut(locked_out_user, secret_sauce)</span>
+                <span class="method-start">213570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">224697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkTotal_Prod_WithCartItems(standard_user, secret_sauce)</span>
+                <span class="method-start">227314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">233712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">233921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkTotal_Prod_WithCartItems(problem_user, secret_sauce)</span>
+                <span class="method-start">236427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">242827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">243066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkTotal_Prod_WithCartItems(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">245420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkTotal_Prod_WithCartItems(locked_out_user, secret_sauce)</span>
+                <span class="method-start">259608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">272501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">272762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkFieldInformation(standard_user, secret_sauce)</span>
+                <span class="method-start">275148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkFieldInformation(problem_user, secret_sauce)</span>
+                <span class="method-start">281151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">284143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">284385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkFieldInformation(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">286824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">294960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">295205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkFieldInformation(locked_out_user, secret_sauce)</span>
+                <span class="method-start">297681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">308606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">308830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOrderCompletion(standard_user, secret_sauce)</span>
+                <span class="method-start">311278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">319854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">320035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOrderCompletion(problem_user, secret_sauce)</span>
+                <span class="method-start">322685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">331191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">331377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOrderCompletion(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">334598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">348149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">348372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOrderCompletion(locked_out_user, secret_sauce)</span>
+                <span class="method-start">350780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">363691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">363913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBackToHome(standard_user, secret_sauce)</span>
+                <span class="method-start">366451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">372901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">373156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkBackToHome(problem_user, secret_sauce)</span>
+                <span class="method-start">375595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">379998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">380211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBackToHome(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">382683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">399166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">399393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkBackToHome(locked_out_user, secret_sauce)</span>
+                <span class="method-start">401694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">412557 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
